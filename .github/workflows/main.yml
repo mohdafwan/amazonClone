@@ -24,7 +24,7 @@ jobs:
           channel: 'stable'
           architecture: x64
 
-      - run: flutter build apk --release
+      - run: flutter build apk
       - name: Push to Releases
         uses: ncipollo/release-action@v1
         with:
