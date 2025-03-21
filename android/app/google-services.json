@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "45384405446",
+    "project_id": "foolo-97c24",
+    "storage_bucket": "foolo-97c24.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45384405446:android:44a9d96878dc169daa62c7",
+        "android_client_info": {
+          "package_name": "com.example.amazon_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPTtcckZ8FKJsWZT5pRDvbkLHmN8Xw8Fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
