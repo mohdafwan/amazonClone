@@ -21,7 +21,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   void refreshData() {
     CarouselViewX();
-    // ProductsWidgets(miniTitle: "Today Deals",);
+    ProductsWidgets(miniTitle: "Today Deals",);
     setState(() {});
   }
 

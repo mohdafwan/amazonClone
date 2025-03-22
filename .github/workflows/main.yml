@@ -38,5 +38,4 @@ jobs:
           tag: v1.0.${{ github.run_number }}
           token: ${{ secrets.TOKEN }}
 
-# push to master, main, develop
-# pull request on main master
+# push to master, main, develop version 1.0.13
