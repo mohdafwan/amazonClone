@@ -72,3 +72,26 @@ The project uses Firebase for authentication, data storage (Firestore), and file
 *   `web`: Web-specific code.
 *   `pubspec.yaml`: Flutter project configuration file.
 *   `README.md`: Project documentation.
+
+## CI/CD Pipeline
+
+This project uses GitHub Actions for Continuous Integration and Continuous Deployment (CI/CD). The pipeline is configured to automatically run checks and build the application on every push and pull request.
+
+### Workflow
+
+The CI/CD pipeline includes the following steps:
+
+1.  **Linting:** Analyzes the Dart code for style and potential errors using `flutter analyze`.
+2.  **Testing:** Runs unit and integration tests to ensure code quality and functionality.
+3.  **Building:** Builds the application for different platforms (Android, iOS, Web, etc.).
+4.  **Deployment (Optional):** Deploys the application to the respective app stores or hosting platforms.
+
+### GitHub Actions Configuration
+
+The workflow configuration files are located in the `.github/workflows` directory.
+
+### Badges
+
+[![Flutter CI](https://github.com/your_github_username/amazon_clone/actions/workflows/flutter.yml/badge.svg)](https://github.com/your_github_username/amazon_clone/actions/workflows/flutter.yml)
+
+*Replace `your_github_username` with your actual GitHub username and adjust the workflow file name (`flutter.yml`) if needed.*
