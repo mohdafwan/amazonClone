@@ -3,7 +3,7 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
 
-import 'package:amazon_clone/data/repositories/auth_repo/auth_repository.dart';
+import 'package:amazon_clone/data/repositories/auth_repo/auth_remote_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:go_router/go_router.dart';

@@ -2,15 +2,73 @@
 
 A new Flutter project.
 
-## Getting Started
+## Purpose
 
-This project is a starting point for a Flutter application.
+This project aims to create a clone of the Amazon e-commerce platform, providing users with a similar shopping experience. It includes features such as user authentication, product browsing, product details, shopping cart functionality, and potentially order management.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*   Flutter
+*   Dart
+*   Firebase (Authentication, Firestore, Storage)
+*   Riverpod (State Management)
+*   GoRouter (Routing)
+*   Flutter ScreenUtil, Animate Do, Carousel Slider, Cached Network Image, Shimmer (UI Libraries)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Platforms
+
+*   Android
+*   iOS
+*   macOS
+*   Windows
+*   Linux
+*   Web
+
+## Dependencies
+
+*   cupertino\_icons: ^1.0.8
+*   firebase\_core: ^3.12.1
+*   firebase\_messaging: ^15.2.4
+*   firebase\_auth: ^5.5.1
+*   google\_sign\_in: ^6.3.0
+*   flutter\_screenutil: ^5.9.3
+*   animate\_do: ^4.2.0
+*   flutter\_riverpod: ^2.6.1
+*   go\_router: ^14.8.1
+*   fluttertoast: ^8.2.12
+*   cloud\_firestore: ^5.6.5
+*   carousel\_slider: ^5.0.0
+*   cached\_network\_image: ^3.4.1
+*   badges: ^3.1.2
+*   image\_picker: ^1.1.2
+*   firebase\_storage: ^12.4.4
+*   cloudinary\_public: ^0.23.1
+*   path: ^1.9.1
+*   shimmer: ^3.0.0
+*   intl: ^0.20.2
+
+## Assets
+
+*   Images: assets/images/
+*   Icons: assets/icons/
+
+## Firebase Setup
+
+The project uses Firebase for authentication, data storage (Firestore), and file storage.  Make sure to configure the Firebase project correctly and download the `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) files. Also, ensure that the SHA-1 and SHA-256 keys are correctly configured in the Firebase console for the Android app.
+
+## Project Structure
+
+*   `android`: Android-specific code.
+*   `ios`: iOS-specific code.
+*   `lib`: Dart code for the Flutter app.
+    *   `main.dart`: Entry point of the application.
+    *   `views`: Contains the different screens/views of the application.
+    *   `models`: Data models.
+    *   `widgets`: Reusable widgets.
+    *   `data`: Repositories and data sources.
+*   `macos`: macOS-specific code.
+*   `windows`: Windows-specific code.
+*   `linux`: Linux-specific code.
+*   `web`: Web-specific code.
+*   `pubspec.yaml`: Flutter project configuration file.
+*   `README.md`: Project documentation.
